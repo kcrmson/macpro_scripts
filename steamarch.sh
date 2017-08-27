@@ -1,0 +1,2 @@
+STEAM_RUNTIME=0 steam &
+

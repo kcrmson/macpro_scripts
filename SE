@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~/minivmac
+./minivmacSE ~/minivmac/Sys608-500MB.dsk $1 &
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+tail -f /srv/minecraft/logs/latest.log
+

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#if ! tmux has-session -t cmus 2>/dev/null; then
+#    tmux new-session -s cmus -d -n cmus -d "/usr/bin/cmus $@"
+#fi
+#tmux attach -d -t cmus
+
+if ! screen -r -D cmus >/dev/null ; then
+    screen -S cmus /usr/bin/cmus --listen arch-linux-macpro "$@"
+fi
+

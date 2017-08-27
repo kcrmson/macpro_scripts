@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mpv -vo opengl-hq "$1"
+

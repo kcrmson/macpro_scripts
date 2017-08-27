@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ssh -Y -i ~/.ssh/id_ed25519 suchstaffies@arch-linux-p50
+

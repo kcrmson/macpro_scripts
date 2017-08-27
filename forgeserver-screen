@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#DISPLAY=:0.0
+cd /home/suchstaffies/.minecraft/
+screen -S "forgeserver" java -jar /home/suchstaffies/.minecraft/current-server.jar -XX:+UseLargePages -XX:MaxGCPauseMillis=40 -XX:TargetSurvivorRatio=80 -XX:MaxTenuringThreshold=15 -Xms1750m -Xmx4096m -Xmn128m -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:DisableExplicitGC -XX:SurvivorRatio=16 -XX:NewRatio=6 -Xnoclassgc -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=3 -XX:+AggressiveOpts -Djava.net.preferIPv4Stack=true -XX:GCPauseIntervalMillis=150 -XX:+AggressiveOpts -XX:+TieredCompilation -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:CompileThreshold=1000 -noGUI

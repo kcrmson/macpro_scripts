@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/minivmac
+./minivmac512Ke $1 $2 &

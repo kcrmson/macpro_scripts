@@ -1,0 +1,4 @@
+#!/bin/bash
+
+fortune -a | cowsay -f $1.cow | lolcat
+
